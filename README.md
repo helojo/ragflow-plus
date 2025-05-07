@@ -13,6 +13,13 @@
   </h4>
 </div>
 
+<h4 align="center">
+  <a href="https://xdxsb.top/ragflow-plus">官网</a> |
+  <a href="docs/faq.md">常见问题</a> |
+  <a href="docs/plan.md">开发计划</a> |
+  <a href="docs/images/group.jpg">社群</a>
+</h4>
+
 ---
 
 ## 🌟 简介
@@ -34,6 +41,8 @@ Ragflow-Plus 是一个基于 Ragflow 的二次开发项目，目的是解决实�
 
 [![Ragflow-Plus项目简介与操作指南](https://i0.hdslb.com/bfs/archive/f7d8da4a112431af523bfb64043fe81da7dad8ee.jpg@672w_378h_1c.avif)](https://www.bilibili.com/video/BV1UJLezaEEE)
 
+> [!NOTE]
+> 视频中采用了vllm作为演示示例，vllm默认拉取使用的模型是float16精度，导致众多用户因显存不足无法正常使用，因此将vllm容器进行注释，除非对vllm比较了解，否则建议使用ollama进行配置。
 
 ## 📥使用方式
 
@@ -87,19 +96,33 @@ python -m api.ragflow_server
 pnpm dev
 ```
 
+## 📝 常见问题
+
+参见[常见问题](docs/faq.md)
+
+## 📜 开发计划
+
+参见[开发计划](docs/plan.md)
+
 ## 🛠️ 如何贡献
 
-1. Fork 本仓库
-2. 创建您的特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交您的更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 打开一个 Pull Request
-
+1. Fork本GitHub仓库
+2. 将fork克隆到本地：  
+`git clone git@github.com:<你的用户名>/ragflow-plus.git`
+3. 创建本地分支：  
+`git checkout -b my-branch`
+4. 提交信息需包含充分说明：  
+`git commit -m '提交信息需包含充分说明'`
+5. 推送更改到GitHub（含必要提交信息）：  
+`git push origin my-branch`
+6. 提交PR等待审核
 
 ## 📄 交流群
-如果有其它需求或问题建议，可加入交流群进行讨论。
+如果有使用问题或建议，可加入交流群进行讨论，目前1群已满，2群可扫码加入。
 
-由于群聊超过200人，无法通过扫码加入，如需加群，加我微信zstar1003，备注"加群"即可。
+<div align="center">
+  <img src="docs/images/group.jpg" width="200" alt="2群二维码">
+</div>
 
 ## 🚀 鸣谢
 
@@ -110,6 +133,12 @@ pnpm dev
 - [v3-admin-vite](https://github.com/un-pany/v3-admin-vite)
 
 - [minerU](https://github.com/opendatalab/MinerU)
+
+感谢此项目贡献者们：
+
+<a href="https://github.com/zstar1003/ragflow-plus/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=zstar1003/ragflow-plus" />
+</a>
 
 ## 💻 更新信息获取
 
